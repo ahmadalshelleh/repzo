@@ -4,11 +4,11 @@ const getLessVisitedData = async ({ from, to, day }) => {
     const days = {
         sunday: 1,
         monday: 2,
-        tuesdays: 3,
-        wednesdays: 4,
-        thursdays: 5,
-        fridays: 6,
-        saturdays: 7,
+        tuesday: 3,
+        wednesday: 4,
+        thursday: 5,
+        friday: 6,
+        saturday: 7,
       };
       const limit = { $limit: 5 };
     
